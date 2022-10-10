@@ -10,7 +10,9 @@ export default function App() {
   return (
     <SafeAreaView style={styles.container}>
       <Text numberOfLines={1} onPress={handlePress}>Open up App.js to start working on your app! reallly really long text</Text>
-     <Image source={require("./assets/icon.png")}
+     <Image 
+     blurRadius={30}
+     source={require("./assets/icon.png")}
      style={styles.styleImage}/>
     </SafeAreaView>
   );
