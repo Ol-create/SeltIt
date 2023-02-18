@@ -100,8 +100,6 @@ To get a local copy up and running follow these simple example steps.
 -npm install
 
 cd Seltit
-
-   rails db:migrate
 ```
 
 ### Usage <a name="usage"></a>
